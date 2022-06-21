@@ -1,0 +1,15 @@
+package br.com.agenda.dao;
+
+public class agendaDAO {
+	
+	/*
+	 * CRUD 
+	 * c create
+	 * r read
+	 * u update
+	 * d delete
+	 */
+	
+	public void save()
+	
+}
