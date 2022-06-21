@@ -1,0 +1,20 @@
+package br.com.agenda.aplicacao;
+
+import java.util.Date;
+
+import br.com.agenda.model.Contato;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Contato contato = new Contato();
+		contato.setNome("Maria Gabriela");
+		contato.setIdade(55);
+		contato.setDataCadastro(new Date());
+		
+		ContatoDAO contatoDao = new ContatoDAO();
+		
+	}
+	
+}

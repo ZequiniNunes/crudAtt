@@ -38,6 +38,8 @@ public class ContatoDAO {
 			//executar a query
 			
 			pstm.execute();
+			
+			System.out.println("contato salvo com sucesso!");
 		}catch (Exception e) {
 			e.printStackTrace();
 		}finally {
