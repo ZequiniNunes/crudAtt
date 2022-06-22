@@ -12,18 +12,14 @@ public class Main {
 		ContatoDAO contatoDao = new ContatoDAO();
 		
 		Contato contato = new Contato();
-		contato.setNome("Rhei Delas");
-		contato.setIdade(31);
+		contato.setNome("Leozin meloso");
+		contato.setIdade(21);
 		contato.setDataCadastro(new Date());
 			
 
 		contatoDao.save(contato);
 		
-		//visualizacao dos registros do banco TODOS
-		
-		for(Contato c : contatoDao.getContatos()) {
-			System.out.println("contato: "+c.getNome());
-		}
+		//visualizacao dos registros do banco 
 	}
 	
 }
