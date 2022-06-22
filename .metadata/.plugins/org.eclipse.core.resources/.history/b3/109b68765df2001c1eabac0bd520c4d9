@@ -91,19 +91,6 @@ public class ContatoDAO {
 			//executar a query 
 			pstm.execute();
 			
-		}catch (Exception e) {
-			e.printStackTrace();
-		}finally {
-			try {
-				if(pstm!=null) {
-					pstm.close();
-				}
-				if(conn!=null) {
-					conn.close();
-				}
-			}catch (Exception e) {
-				e.printStackTrace();
-			}
 		}
 	}
 	

@@ -88,22 +88,8 @@ public class ContatoDAO {
 			//qual ID do registro que deseja atualizar ?
 			pstm.setInt(4, contato.getId());
 			
-			//executar a query 
-			pstm.execute();
 			
-		}catch (Exception e) {
-			e.printStackTrace();
-		}finally {
-			try {
-				if(pstm!=null) {
-					pstm.close();
-				}
-				if(conn!=null) {
-					conn.close();
-				}
-			}catch (Exception e) {
-				e.printStackTrace();
-			}
+			
 		}
 	}
 	

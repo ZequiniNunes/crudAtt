@@ -98,11 +98,6 @@ public class ContatoDAO {
 				if(pstm!=null) {
 					pstm.close();
 				}
-				if(conn!=null) {
-					conn.close();
-				}
-			}catch (Exception e) {
-				e.printStackTrace();
 			}
 		}
 	}
