@@ -12,8 +12,8 @@ public class Main {
 		ContatoDAO contatoDao = new ContatoDAO();
 		
 		Contato contato = new Contato();
-		contato.setNome("jao");
-		contato.setIdade(18);
+		contato.setNome("Rhei Delas");
+		contato.setIdade(31);
 		contato.setDataCadastro(new Date());
 			
 		//contatoDao.save(contato);
@@ -25,10 +25,7 @@ public class Main {
 		c1.setDataCadastro(new Date());
 		c1.setId(1); //numero que esta no banco de dados da PK 
 		
-		//contatoDao.update(c1);
-		
-		//deletar o contato pelo seu numero id 
-		contatoDao.deleteByID(4);
+		contatoDao.update(c1);
 		
 		//visualizacao dos registros do banco TODOS
 		

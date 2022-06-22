@@ -16,7 +16,7 @@ public class Main {
 		contato.setIdade(18);
 		contato.setDataCadastro(new Date());
 			
-		//contatoDao.save(contato);
+		contatoDao.save(contato);
 		
 		//atualizar o contato.
 		Contato c1 = new Contato();
@@ -28,7 +28,7 @@ public class Main {
 		//contatoDao.update(c1);
 		
 		//deletar o contato pelo seu numero id 
-		contatoDao.deleteByID(4);
+		//contatoDao.deleteByID(1);
 		
 		//visualizacao dos registros do banco TODOS
 		
